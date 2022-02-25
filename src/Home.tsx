@@ -15,6 +15,7 @@ const Home = () => {
     <main className={classes.main}>
       <Typography className={classes.title}>SOL</Typography>
       <Typography className={classes.title2}>WAGER</Typography>
+      <Typography className={classes.text}>coming soon...</Typography>
     </main>
   )
 };
@@ -22,6 +23,14 @@ const useStyles = makeStyles({
   main : {
     textAlign: "center",
     background: "black",
+  },
+  text: {
+    color: "white",
+    marginTop: "25px",
+    fontSize: "15px",
+    fontWeight: "bold",
+    textAlign: "center",
+    fontFamily: "Verdana",
   },
   title: {
     color: "#512da8",
