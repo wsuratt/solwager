@@ -17,7 +17,7 @@ const Home = () => {
       <Typography className={classes.title2}>WAGER</Typography>
       <div className={classes.center}>
         <Box sx={{ width: 500, marginTop: 5, p: 2, border: '1px solid white' }}>
-          <Typography className={classes.text}>Skill-based game wagering platform built on Solana</Typography>
+          <Typography className={classes.text}>A skill-based game wagering platform built on Solana</Typography>
         </Box>
       </div>
       <Typography className={classes.text2}>coming soon...</Typography>
