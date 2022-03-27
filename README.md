@@ -1,1 +1,1 @@
-# SOLWAGER
+# hangman server

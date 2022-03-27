@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import HangmanButton from './HangmanButton';
 import {
   CircularProgress,
   Snackbar,
@@ -16,11 +17,13 @@ const Home = () => {
       <Typography className={classes.title}>SOL</Typography>
       <Typography className={classes.title2}>WAGER</Typography>
       <div className={classes.center}>
-        <Box sx={{ width: 500, marginTop: 5, p: 2, border: '1px solid white' }}>
+        <Box sx={{ width: 500, marginTop: 5, p: 2}}>
           <Typography className={classes.text}>A skill-based game wagering platform built on Solana</Typography>
         </Box>
       </div>
-      <Typography className={classes.text2}>coming soon...</Typography>
+      <Typography className={classes.text2}>Introducing our first game</Typography>
+      <Typography className={classes.text2}>Hangman</Typography>
+      <HangmanButton/>
     </main>
   )
 };
